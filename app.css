@@ -1,0 +1,66 @@
+/*
+ * {
+    border: 2px solid cyan;
+} 
+*/
+/* Element Selector */
+img {
+    width: 300px;
+}
+
+h1 {
+    color: purple;
+}
+
+h2 {
+    color: teal;
+}
+/* ID Selectors*/
+#logo {
+    width: 75px;
+}
+
+/* Class Selectors */
+.poem {
+    width: 500px;
+    color: grey;
+}
+
+/* Decendant */
+.poem p {
+    font-style: italic;
+}
+
+/*Adjacent  */
+h2 + h3 {
+    color: yellow;
+}
+
+/* Direct Children */
+/* Decendant added here to set standard for the em inheret to work */
+#works li{
+    font-size: 16px;
+}
+#works > li {
+    font-size: 1.5em;
+}
+
+/* Multiple Selectors */
+h1, a {
+    color: purple;
+}
+
+/* Pseudo Class*/
+a:hover {
+    color: green;
+}
+
+/* Pseudo Element */
+.poem section p::first-letter {
+    font-size: 2em;
+}
+
+/* Attribute Selector  */
+[type="text"]{
+    background-color: lightblue;
+}
